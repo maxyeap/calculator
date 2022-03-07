@@ -13,10 +13,26 @@ body {
   border-style: solid;
   border-radius: 15px;
   border-color: grey;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 .cal-display p {
   color: white;
   text-align: right;
   margin: 0;
+}
+
+.cal-buttons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+
+.grid-item {
+  padding: 10px 0px;
+  border-radius: 10px;
+  border-color: black;
+  background-color: #3c4043;
+  color: white;
 }
