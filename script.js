@@ -17,3 +17,21 @@ const divide = function (x, y) {
   const sum = x / y;
   return sum;
 };
+
+const operate = function (o, a, b) {
+  if (o == "+") {
+    const result = add(a, b);
+    return result;
+  } else if (o == "-") {
+    const result = subtract(a, b);
+    return result;
+  } else if (o == "*") {
+    const result = multiply(a, b);
+    return result;
+  } else if (o == "/") {
+    const result = divide(a, b);
+    return result;
+  } else {
+    return "Please input an operator!";
+  }
+};
