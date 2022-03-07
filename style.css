@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  max-width: 500px;
+  margin: 0px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cal-display {
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  font-size: 24px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: grey;
+}
+
+.cal-display p {
+  color: white;
+  text-align: right;
+  margin: 0;
+}
