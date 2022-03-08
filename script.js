@@ -35,3 +35,11 @@ const operate = function (o, a, b) {
     return "Please input an operator!";
   }
 };
+
+let displayValue = 0;
+
+document.getElementById("display").innerHTML = displayValue;
+
+const displayNumber = function (num) {
+  displayValue = num;
+};
