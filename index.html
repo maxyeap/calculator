@@ -8,25 +8,55 @@
   </head>
   <body>
     <div class="cal-display">
-      <p id="display"></p>
+      <p id="display">0</p>
     </div>
     <div class="cal-buttons">
       <button class="grid-item" onclick="displayNumber(7)">7</button>
       <button class="grid-item" onclick="displayNumber(8)">8</button>
       <button class="grid-item" onclick="displayNumber(9)">9</button>
-      <button class="grid-item" style="background-color: #5f6368" ;>÷</button>
+      <button
+        class="grid-item"
+        style="background-color: #5f6368"
+        onclick="operatorFunc('÷')"
+      >
+        ÷
+      </button>
       <button class="grid-item" onclick="displayNumber(4)">4</button>
       <button class="grid-item" onclick="displayNumber(5)">5</button>
       <button class="grid-item" onclick="displayNumber(6)">6</button>
-      <button class="grid-item" style="background-color: #5f6368" ;>x</button>
+      <button
+        class="grid-item"
+        style="background-color: #5f6368"
+        onclick="operatorFunc('x')"
+      >
+        x
+      </button>
       <button class="grid-item" onclick="displayNumber(1)">1</button>
       <button class="grid-item" onclick="displayNumber(2)">2</button>
       <button class="grid-item" onclick="displayNumber(3)">3</button>
-      <button class="grid-item" style="background-color: #5f6368" ;>-</button>
+      <button
+        class="grid-item"
+        style="background-color: #5f6368"
+        onclick="operatorFunc('-')"
+      >
+        -
+      </button>
       <button class="grid-item" onclick="displayNumber(0)">0</button>
       <button class="grid-item">AC</button>
-      <button class="grid-item" style="background-color: #8ab4f8" ;>=</button>
-      <button class="grid-item" style="background-color: #5f6368" ;>+</button>
+      <button
+        class="grid-item"
+        style="background-color: #8ab4f8"
+        onclick="equalFunc('=')"
+      >
+        =
+      </button>
+      <button
+        class="grid-item"
+        style="background-color: #5f6368"
+        onclick="operatorFunc('+')"
+      >
+        +
+      </button>
     </div>
   </body>
   <footer>
