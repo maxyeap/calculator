@@ -32,44 +32,52 @@ const operate = function (o, a, b) {
   if (o == "+") {
     if (calObj.firstNum == 0) {
       const result = add(a, b);
-      displayValue = result;
+      const mathRound = Math.round(result * 100) / 100;
+      displayValue = mathRound;
       calObj.firstNum += result;
     } else {
       const result = add(a, b);
-      displayValue = result;
+      const mathRound = Math.round(result * 100) / 100;
+      displayValue = mathRound;
       calObj.firstNum = result;
     }
     document.getElementById("display").innerHTML = displayValue;
   } else if (o == "-") {
     if (calObj.firstNum == 0) {
       const result = subtract(a, b);
-      displayValue = result;
+      const mathRound = Math.round(result * 100) / 100;
+      displayValue = mathRound;
       calObj.firstNum += result;
     } else {
       const result = subtract(a, b);
-      displayValue = result;
+      const mathRound = Math.round(result * 100) / 100;
+      displayValue = mathRound;
       calObj.firstNum = result;
     }
     document.getElementById("display").innerHTML = displayValue;
   } else if (o == "x") {
     if (calObj.firstNum == 0) {
       const result = multiply(a, b);
-      displayValue = result;
+      const mathRound = Math.round(result * 100) / 100;
+      displayValue = mathRound;
       calObj.firstNum += result;
     } else {
       const result = multiply(a, b);
-      displayValue = result;
+      const mathRound = Math.round(result * 100) / 100;
+      displayValue = mathRound;
       calObj.firstNum = result;
     }
     document.getElementById("display").innerHTML = displayValue;
   } else if (o == "÷") {
     if (calObj.firstNum == 0) {
       const result = divide(a, b);
-      displayValue = result;
+      const mathRound = Math.round(result * 100) / 100;
+      displayValue = mathRound;
       calObj.firstNum += result;
     } else {
       const result = divide(a, b);
-      displayValue = result;
+      const mathRound = Math.round(result * 100) / 100;
+      displayValue = mathRound;
       calObj.firstNum = result;
     }
     document.getElementById("display").innerHTML = displayValue;
